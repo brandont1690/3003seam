@@ -99,5 +99,23 @@ void mkDASHABI()
     void LawBing(){
         System.out.println("See u guys in Starlight Fantasy this Saturday WRYYYYY!!!");
     }
+
+    void 2minutes(){
+        int timet= 2 * 60; // Convert to seconds
+        long delay = timet * 1000;
+    
+        do
+        {
+          int minutes = timet / 60;
+          int seconds = timet % 60;
+          System.out.println(minutes +" minute(s), " + seconds + " second(s)");
+          Thread.sleep(1000);
+          timet = timet - 1;
+          delay = delay - 1000;
+    
+        }
+        while (delay != 0);
+        System.out.println("Time's Up!");
+    }
   
 }
