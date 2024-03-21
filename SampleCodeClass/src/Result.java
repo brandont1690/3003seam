@@ -100,6 +100,7 @@ void mkDASHABI()
         System.out.println("See u guys in Starlight Fantasy this Saturday WRYYYYY!!!");
     }
 
+	//My function over hereee
     void 2minutes(){
         int timet= 2 * 60; // Convert to seconds
         long delay = timet * 1000;
